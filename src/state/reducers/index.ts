@@ -9,5 +9,5 @@ export default reducers;
 
 // type of entire state from store
 // ReturnType in inbuilt feature of ts which gives return type of function, 
-// typeof reducers(function) returns typeof functions
+// typeof reducers(function) returns typeof functions, reducers is function.
 export type RootState = ReturnType<typeof reducers>;
