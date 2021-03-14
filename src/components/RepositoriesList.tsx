@@ -11,7 +11,6 @@ const RepositoriesList: React.FC = () => {
         e.preventDefault();
         SearchRepositories(term);
     };
-    console.log(data, loading, error);
 
     return (
         <div>
